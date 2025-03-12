@@ -24,8 +24,8 @@ public:
 	void delHuman(Human*); // Удаление человека из соцсети
 	void addConnection(Human*, Human*); // Добавление связи
 	void delConnection(Human*, Human*); // Удаление связи
-	bool isHuman(Human*); 
-	bool areFriends(Human*, Human*); // Являются друьями
+	bool isHuman(Human*); // Является участником соцсети
+	bool areFriends(Human*, Human*); // Являются друзьями
 	void showThreeHandshakes(); // Определение всех пар знакомств до трех рукопожатий
 private:
 	int _matrix[SIZE][SIZE]; // Матрица связей
